@@ -21,7 +21,5 @@ export class HomeComponent implements OnInit {
     })
   }
 
-  addToCart() {
-    console.log('added to cart');
-  }
+
 }

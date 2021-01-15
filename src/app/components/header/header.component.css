@@ -4,6 +4,15 @@
     top: 0;
 }
 
+a{
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a:hover {
+    border: white;
+}
+
 .header_top {
     height: 60px;
     background-color: #0F1111;
@@ -81,6 +90,11 @@
     margin-bottom: 8;
     height: 50px;
     justify-content: space-around;
+}
+
+.header_menu_cart > a {
+   display: flex;
+   color: white;
 }
 
 .header_cart_number {

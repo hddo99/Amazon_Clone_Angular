@@ -14,6 +14,8 @@ import { MatCardModule } from '@angular/material/card';
 import { HttpClientModule } from '@angular/common/http';
 import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
 import { ProductsComponent } from './components/products/products.component';
+import { CheckoutProductsComponent } from './components/checkout-products/checkout-products.component';
+import { CheckoutSubtotalComponent } from './components/checkout-subtotal/checkout-subtotal.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -24,7 +26,9 @@ import { ProductsComponent } from './components/products/products.component';
     LoginComponent,
     BannerComponent,
     PagenotfoundComponent,
-    ProductsComponent
+    ProductsComponent,
+    CheckoutProductsComponent,
+    CheckoutSubtotalComponent
   ],
   imports: [
     BrowserModule,
